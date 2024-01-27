@@ -6,7 +6,7 @@ public class Wrapper {
 
         int idade = 10;
         System.out.println(idade);
-        Integer idadeI = 100;
+        Integer idadeI = Integer.valueOf(10);
         System.out.println(idadeI);
     }
 }
